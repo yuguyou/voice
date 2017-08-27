@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>voice</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="./voice.css">
+</head>
+<body>
+  <div class="voice-player">
+    <audio class="v-audio" style="display: none"></audio>
+    <div class="v-animation">
+      <svg class="v-a-board" xmlns="http://www.w3.org/2000/svg" version="1.1" style="height: 100%; width: 100%"></svg>
+    </div>
+  </div>
+  <button class="play" id="play" onclick="window.voiceAction.start()">播放</button>
+  <button class="pause" id="pause" onclick="window.voiceAction.pause()">暂停</button>
+  <script src="./voice.js"></script>
+</body>
+</html>
