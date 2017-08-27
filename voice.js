@@ -22,13 +22,6 @@ const voiceData = {
   ],
 };
 
-/*
-audio.onloadedmetadata = "myFunction()" 加载完成时执行
-audio.duration 返回当前音频的长度（以秒计）
-defaultPlaybackRate 设置或返回音频的默认播放速度
-ended 返回音频的播放是否已结束
-currentTime 设置或返回音频中的当前播放位置（以秒计）
-*/
 function VoicePlayer(voiceData) {
   const _s = this;
   this.config = {
